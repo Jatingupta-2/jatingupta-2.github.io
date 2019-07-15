@@ -223,9 +223,10 @@ tbody tr:hover {
 }
 
 @media screen and (max-width: 992px){
-
+  .tm-banner-header { margin-top: 0px ; }
   .container-table100 {
-    width: 50vw;
+    margin-left: 20vw;
+    width: 30vw;
     height: 50vw;
     /* min-height: 100vh; */
     background: transparent;
@@ -244,6 +245,8 @@ tbody tr:hover {
     justify-content: center;
     flex-wrap: wrap;
     padding: 10vw 10vw;
+    padding-left: 20vw;
+    padding-right: 20vw
   }
 
 }
