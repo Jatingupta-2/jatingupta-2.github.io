@@ -222,8 +222,33 @@ tbody tr:hover {
   padding-right: 62px;
 }
 
+@media screen and (max-width: 992px){
 
-@media screen and (max-width: 992px) {
+  .container-table100 {
+    width: 50vw;
+    height: 50vw;
+    /* min-height: 100vh; */
+    background: transparent;
+    /* background: #c850c0; */
+    /* background: -webkit-linear-gradient(45deg, #4158d0, #c850c0);
+    background: -o-linear-gradient(45deg, #4158d0, #c850c0);
+    background: -moz-linear-gradient(45deg, #4158d0, #c850c0);
+    background: linear-gradient(45deg, #4158d0, #c850c0); */
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10vw 10vw;
+  }
+
+}
+
+/* @media screen and (max-width: 992px) {
   table {
     display: block;
   }
@@ -235,6 +260,7 @@ tbody tr:hover {
   }
   table tbody tr {
     height: auto;
+    width: auto;
     padding: 37px 0;
   }
   table tbody tr td {
@@ -287,13 +313,13 @@ tbody tr:hover {
   .column1,
   .column2,
   .column3 {
-    /* width: 100%; */
+   
   }
 
   tbody tr {
     font-size: 14px;
   }
-}
+} */
 
 @media (max-width: 576px) {
   .container-table100 {
