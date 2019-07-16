@@ -220,14 +220,14 @@ label { font-weight: 700; }
     padding: 12px 20px;
 }
 
-.tm-btn-white { background: white; }
-.tm-btn-white-primary { color: #69c6ba; }
+.tm-btn-white { background:rgb(60, 59, 114) ; }
+.tm-btn-white-primary { color: white; }
 .tm-btn-white-highlight { color: #c66995; }
 
 .tm-btn-white-primary:hover,
 .tm-btn-white-primary:focus,
 .tm-btn-white-primary:active {
-    background: #c66995;
+    background: rgb(214, 165, 41);
     color: white;
 }
 

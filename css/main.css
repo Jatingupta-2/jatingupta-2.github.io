@@ -233,7 +233,7 @@ tbody tr:hover {
 .tm-bg-gray { 
   /* background-color: #efefef;  */
   background-image: linear-gradient(to right,#6DD5FA , rgb(218, 242, 248));
-  height: 90vmax;
+  height: 100vmax;
 
 }
   .tm-banner-header { margin-top: 0px ; }
