@@ -230,6 +230,12 @@ tbody tr:hover {
     justify-content: center;
     padding-top: 5vw;
 } 
+.tm-bg-gray { 
+  /* background-color: #efefef;  */
+  background-image: linear-gradient(to right,#6DD5FA , rgb(218, 242, 248));
+  height: 90vmax;
+
+}
   .tm-banner-header { margin-top: 0px ; }
   .container-table100 {
 
