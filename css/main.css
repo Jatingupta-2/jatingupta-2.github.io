@@ -241,7 +241,7 @@ tbody tr:hover {
   .tm-banner-header { margin-top: 0px ; }
   .container-table100 {
 
-    margin-left: 20vw;
+    margin-left: 15vw;
     width: 20vw;
     height: 50vw;
     /* min-height: 100vh; */
@@ -261,12 +261,12 @@ tbody tr:hover {
     justify-content: center;
     flex-wrap: wrap;
     /* padding: 10vw 10vw; */
-    padding-left: 20vw;
+    /* padding-left: 20vw; */
     padding-right: 20vw
   }
   .column1 {
     width: 6vw;
-    padding-left: 40px;
+    /* padding-left: 40px; */
   }
   
   .column2 {
