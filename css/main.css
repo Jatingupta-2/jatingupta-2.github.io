@@ -223,6 +223,9 @@ tbody tr:hover {
 }
 
 @media screen and (max-width: 992px){
+  .limiter{
+    width: 50vw
+  }
 
   .tm-hover-link{
     color: white;
@@ -237,6 +240,7 @@ tbody tr:hover {
 } 
   .tm-banner-header { margin-top: 0px ; }
   .container-table100 {
+
     margin-left: 20vw;
     width: 20vw;
     height: 50vw;
