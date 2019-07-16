@@ -260,7 +260,7 @@ tbody tr:hover {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 10vw 10vw;
+    /* padding: 10vw 10vw; */
     padding-left: 20vw;
     padding-right: 20vw
   }
@@ -282,16 +282,7 @@ tbody tr:hover {
     text-align: right;
   }
   
-  .column5 {
-    width: 4vw;
-    text-align: right;
-  }
   
-  .column6 {
-    width: 4vw;
-    text-align: right;
-    /* padding-right: 62px; */
-  }
 
 }
 
