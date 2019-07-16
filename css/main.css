@@ -226,11 +226,13 @@ tbody tr:hover {
   .limiter{
     width: 50vw
   }
+  
 
   .tm-hover-link{
     color: white;
     height: 5vw;
   }
+ 
   
   .tm-banner-row { 
     position: relative;
@@ -241,8 +243,8 @@ tbody tr:hover {
   .tm-banner-header { margin-top: 0px ; }
   .container-table100 {
 
-    margin-left: 15vw;
-    width: 20vw;
+    margin-left: 0vw;
+    width: 70vw;
     height: 50vw;
     /* min-height: 100vh; */
     background: transparent;
@@ -262,23 +264,23 @@ tbody tr:hover {
     flex-wrap: wrap;
     /* padding: 10vw 10vw; */
     /* padding-left: 20vw; */
-    padding-right: 20vw
+    padding-right: 10vw
   }
   .column1 {
-    width: 6vw;
+    width: 10vw;
     /* padding-left: 40px; */
   }
   
   .column2 {
-    width: 4vw;
+    width: 10vw;
   }
   
   .column3 {
-    width: 4vw;
+    width: 10vw;
   }
   
   .column4 {
-    width: 4vw;
+    width: 10vw;
     text-align: right;
   }
   
