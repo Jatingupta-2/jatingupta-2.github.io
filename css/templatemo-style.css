@@ -43,8 +43,8 @@ p:last-child { margin-bottom: 0; }
     font-weight: 600;
 }
 
-.tm-bg-primary { background: #69c6ba; }
-.tm-bg-highlight { background: #c66995; }
+.tm-bg-primary { background-image: linear-gradient(to right,#6DD5FA , rgb(218, 242, 248)); }
+.tm-bg-highlight { background-image: linear-gradient(to left,#6DD5FA , rgb(218, 242, 248)); }
 
 .btn-primary {
     background: #69c6ba;
@@ -281,7 +281,7 @@ label { font-weight: 700; }
 
 .tm-slideshow-description {
     padding: 50px;
-    color: white;
+    color: grey;
     width: 48%;
     z-index: 100;
     margin-left: -42px;
