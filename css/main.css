@@ -213,9 +213,18 @@ tbody tr:hover {
 
 
 @media screen and (max-width: 992px){
-  .wrap-table100 {
-    width: 250vw;
+  .table100-head th{
+    font-family: OpenSans-Regular;
+    font-size: 3vw;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: unset;
   }
+  
+  .wrap-table100 {
+    width: 100vw;
+  }
+  
   
   .limiter{
     width: 70vw
@@ -264,11 +273,14 @@ tbody tr:hover {
     flex-wrap: wrap;
     /* padding: 10vw 10vw; */
     padding-left: 10vw;
-    padding-right: 10vw
+    padding-right: 10vw;
+    
+
   }
   .column1 {
-    width: 0vw;
+    width: 3vw;
     text-align: center;
+    
     
     /* padding-left: 40px; */
   }
