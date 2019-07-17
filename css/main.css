@@ -263,7 +263,7 @@ tbody tr:hover {
     justify-content: center;
     flex-wrap: wrap;
     /* padding: 10vw 10vw; */
-    /* padding-left: 20vw; */
+    padding-left: 10vw;
     padding-right: 10vw
   }
   .column1 {
