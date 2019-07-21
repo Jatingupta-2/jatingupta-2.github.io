@@ -24,7 +24,7 @@ Highlight color (pink)		: #c66995
     position: absolute;
     top: 50%;
     left: 0;
-    width: 100vw;
+    width: 99.5vw;
     height: 60vw;
     margin-top: -200px;
     overflow: hidden;
@@ -641,7 +641,8 @@ padding-top: 2vw}
     text-transform: uppercase;
 }
 
-.tm-d-table { display: table; }
+.tm-d-table { display: table; 
+    border-spacing: 50px 0px;}
 
 footer {
     background: rgb(214, 165, 41);

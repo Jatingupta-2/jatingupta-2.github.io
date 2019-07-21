@@ -255,7 +255,7 @@ tbody tr:hover {
   position: absolute;
   /* top: 50%; */
   left: 0;
-  width: 100vw;
+  /* width: 100vw; */
   height:77vw;
   margin-top: -600px;
   overflow: hidden;
@@ -264,6 +264,7 @@ tbody tr:hover {
   .wrap-table100 {
     width: 100vw;
   }
+
   
   
   .limiter{
@@ -373,7 +374,7 @@ tbody tr:hover {
   position: absolute;
   /* top: 50%; */
   left: 0;
-  width: 100vw;
+  /* width: 100vw; */
   height: 260vw;
   margin-top: -320px;
   overflow: hidden;
