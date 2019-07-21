@@ -141,6 +141,7 @@ table {
 }
 table * {
   position: relative;
+  text-align: center;
   
 }
 table td, table th {
@@ -150,8 +151,9 @@ table td, table th {
 table thead tr {
   border-spacing: 50px 0;
   height: 60px;
-  background: rgb(60, 59, 114);
+  background: rgb(214, 165, 41);
   border-spacing: 50px 50px;
+  text-align: center;
 }
 table tbody tr {
   height: 50px;
@@ -161,7 +163,7 @@ table tbody tr:last-child {
   border: 0;
 }
 table td, table th {
-  text-align: left;
+  text-align: center;
 }
 table td.l, table th.l {
   text-align: right;
@@ -181,6 +183,7 @@ table td.r, table th.r {
   line-height: 1.2;
   font-weight: unset;
   border-spacing: 50px 50px;
+  text-align: center;
   
 }
 
@@ -193,9 +196,12 @@ table td.r, table th.r {
   margin-right: 15vw;
   align-items: center;
   border: 10%;
+  
 }
 tbody tr:nth-child(even) {
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
+  background-color: #f7f1a8;
+  
 }
 
 tbody tr {
@@ -204,6 +210,7 @@ tbody tr {
   color: #808080;
   line-height: 1.2;
   font-weight: unset;
+  
 }
 
 tbody tr:hover {
@@ -215,6 +222,7 @@ tbody tr:hover {
 .column1 {
   width: 50px;
   padding-left: 40px;
+  font-family: 'Sue Ellen Francisco ', cursive;
   /* border-spacing: 50px 50px;
   padding: 10px 0; */
 
@@ -321,6 +329,7 @@ tbody tr:hover {
   .column1 {
     width: 3vw;
     text-align: center;
+    
     
     
     /* padding-left: 40px; */
@@ -440,6 +449,7 @@ tbody tr:hover {
   .column1 {
     width: 3vw;
     text-align: center;
+    font-family: 'Sue Ellen Francisco ', cursive;
     
     
     /* padding-left: 40px; */
@@ -448,6 +458,7 @@ tbody tr:hover {
   .column2 {
     width: 10vw;
     text-align: center;
+    align-items: center;
   }
   
   .column3 {
