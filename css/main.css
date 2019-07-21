@@ -230,6 +230,25 @@ tbody tr:hover {
     line-height: 1.2;
     font-weight: unset;
   }
+  .navbar {
+    font-weight: 700;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 13vw;
+}
+.wrapper {
+  background: #ffb347;
+  background: -webkit-linear-gradient(top left, #ffb347 0%, #ffcc33 100%);
+  background: linear-gradient(to bottom right, #ffb347 0%, #ffcc33 100%);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100vw;
+  height: 260vw;
+  margin-top: -320px;
+  overflow: hidden;
+}
   
   .wrap-table100 {
     width: 100vw;
@@ -388,6 +407,13 @@ tbody tr:hover {
 } */
 
 @media (max-width: 370px) {
+  .navbar {
+    font-weight: 700;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 13vw;
+}
   .tm-bg-gray { 
     /* background-color: #efefef;  */
     background-image: linear-gradient(to right,#6DD5FA , rgb(218, 242, 248));

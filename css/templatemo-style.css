@@ -8,6 +8,157 @@ Highlight color (pink)		: #c66995
 --------------------------------------
 
 */
+
+
+
+
+
+
+
+/* Start new code */
+
+.wrapper {
+    background: #ffb347;
+    background: -webkit-linear-gradient(top left, #ffb347 0%, #ffcc33 100%);
+    background: linear-gradient(to bottom right, #ffb347 0%, #ffcc33 100%);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100vw;
+    height: 52vw;
+    margin-top: -200px;
+    overflow: hidden;
+  }
+  
+  .bg-bubbles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .bg-bubbles li {
+    position: absolute;
+    list-style: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.15);
+    bottom: -160px;
+    -webkit-animation: square 25s infinite;
+    animation: square 25s infinite;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+  }
+  .bg-bubbles li:nth-child(1) {
+    left: 10%;
+  }
+  .bg-bubbles li:nth-child(2) {
+    left: 20%;
+    width: 80px;
+    height: 80px;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation-duration: 17s;
+            animation-duration: 17s;
+  }
+  .bg-bubbles li:nth-child(3) {
+    left: 25%;
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
+  }
+  .bg-bubbles li:nth-child(4) {
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation-duration: 22s;
+            animation-duration: 22s;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  .bg-bubbles li:nth-child(5) {
+    left: 70%;
+  }
+  .bg-bubbles li:nth-child(6) {
+    left: 80%;
+    width: 120px;
+    height: 120px;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .bg-bubbles li:nth-child(7) {
+    left: 32%;
+    width: 160px;
+    height: 160px;
+    -webkit-animation-delay: 7s;
+            animation-delay: 7s;
+  }
+  .bg-bubbles li:nth-child(8) {
+    left: 55%;
+    width: 20px;
+    height: 20px;
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+    -webkit-animation-duration: 40s;
+            animation-duration: 40s;
+  }
+  .bg-bubbles li:nth-child(9) {
+    left: 25%;
+    width: 10px;
+    height: 10px;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation-duration: 40s;
+            animation-duration: 40s;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .bg-bubbles li:nth-child(10) {
+    left: 90%;
+    width: 160px;
+    height: 160px;
+    -webkit-animation-delay: 11s;
+            animation-delay: 11s;
+  }
+  @-webkit-keyframes square {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-700px) rotate(600deg);
+              transform: translateY(-700px) rotate(600deg);
+    }
+  }
+  @keyframes square {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-700px) rotate(600deg);
+              transform: translateY(-700px) rotate(600deg);
+    }
+  }
+  
+
+
+
+
+/* End New Code */
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 13px;
@@ -43,8 +194,14 @@ p:last-child { margin-bottom: 0; }
     font-weight: 600;
 }
 
-.tm-bg-primary { background-image: linear-gradient(to right,rgb(247, 230, 81) , rgb(244, 250, 192)); }
-.tm-bg-highlight { background-image: linear-gradient(to left,rgb(247, 230, 81) , rgb(244, 250, 192)); }
+.tm-bg-primary { 
+    background-image: linear-gradient(to right,rgb(214, 165, 41), rgb(244, 250, 192));
+    /* background-color: rgb(214, 165, 41); */
+ }
+.tm-bg-highlight { 
+    background-image: linear-gradient(to left,rgb(214, 165, 41) , rgb(211, 165, 41));
+    /* background-color: rgb(214, 165, 41); */
+}
 
 /* ,#6DD5FA , rgb(218, 242, 248) */
 
@@ -54,6 +211,7 @@ p:last-child { margin-bottom: 0; }
     border-radius: 0;
     outline: none;
 }
+
 
 .btn-primary:hover { background: #c66995; }
 .tm-top-bar .navbar-expand-lg .navbar-nav .nav-link { padding: 50px 20px;
@@ -105,9 +263,12 @@ font-size: 120% }
     width: 100%;
     padding-top: 0;
     padding-bottom: 0;
+    margin-left: 27vw;
 }
 
-.nav-link.active, .nav-link:hover {	color: rgb(214, 165, 41);	}
+.nav-link.active, .nav-link:hover {	color: rgb(214, 165, 41);	
+    /* font-size: 250%; */
+}
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(104, 199, 187)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -145,10 +306,18 @@ font-size: 120% }
     background: rgba(0, 0, 0, 0.7);
 }
 .tm-banner-bg {
-    background: url(../img/Lakshmi-Yarn.jpg) center top no-repeat;    
+    /* background: url(../img/istockphoto-131399882-612x612.jpg) center top no-repeat;   */
+    /* background-image: gra */
+    /* background-image: linear-gradient(to right,rgb(214, 165, 41) , tomato); */
+    background: transparent;
     min-height: 720px;
     position: relative;
     /* opacity: 0.5; */
+    margin-bottom: 4vw;
+    /* margin-right: 4vw;
+    margin-left: 4vw; */
+    border-radius:5%
+    
 }
 .tm-banner-row { 
     position: relative;
@@ -175,7 +344,7 @@ font-size: 120% }
 
 .tm-hover-link { 
     background-color: white;
-    color: black;
+    color: rgb(214, 165, 41);
     font-size: 30px; text-align: center;
     font-family:'Sacramento', cursive;
     font-weight:lighter;
@@ -184,8 +353,8 @@ font-size: 120% }
 .tm-hover-link:hover,
 .tm-hover-link:focus {
     background-color: white;
-    color: rgb(214, 165, 41);
-    font-size: 250%
+    color: tomato;
+    font-size: 250%;
     /* 'Satisfy', cursive */
     
 }
