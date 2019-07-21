@@ -25,7 +25,7 @@ Highlight color (pink)		: #c66995
     top: 50%;
     left: 0;
     width: 100vw;
-    height: 52vw;
+    height: 60vw;
     margin-top: -200px;
     overflow: hidden;
   }
@@ -419,7 +419,7 @@ label { font-weight: 700; }
 
 .tm-bg-gray { 
     /* background-color: #efefef;  */
-    background-image: linear-gradient(to right,#6DD5FA , rgb(218, 242, 248));
+    /* background-image: linear-gradient(to right,#6DD5FA , rgb(218, 242, 248)); */
 
 }
 .tm-about-text-wrap { max-width: 830px; }
