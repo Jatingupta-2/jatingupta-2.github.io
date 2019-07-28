@@ -257,9 +257,11 @@ tbody tr:hover {
     margin-left: 13vw;
 }
 .wrapper {
-  background: #ffb347;
+  /* background: #ffb347;
+  
   background: -webkit-linear-gradient(top left, #ffb347 0%, #ffcc33 100%);
-  background: linear-gradient(to bottom right, #ffb347 0%, #ffcc33 100%);
+  background: linear-gradient(to bottom right, #ffb347 0%, #ffcc33 100%); */
+  background:white;
   position: absolute;
   /* top: 50%; */
   left: 0;
@@ -281,8 +283,9 @@ tbody tr:hover {
   
 
   .tm-hover-link{
-    color: white;
-    height: 5vw;
+    /* color: white; */
+    /* height: 50vw;
+    margin-top: 250px; */
   }
  
   
@@ -293,8 +296,8 @@ tbody tr:hover {
     padding-top: 5vw;
 } 
 .tm-bg-gray { 
-  /* background-color: #efefef;  */
-  background-image: linear-gradient(to right,#6DD5FA , rgb(218, 242, 248));
+  background-color: white; 
+  /* background-image: linear-gradient(to right,#6DD5FA , rgb(218, 242, 248)); */
   height: 100vmax;
 
 }
@@ -369,23 +372,43 @@ tbody tr:hover {
     line-height: 1.2;
     font-weight: unset;
   }
+  
+  .tm-top-bar.active .navbar-expand-lg .navbar-nav .nav-link,
+  .tm-top-bar .navbar-expand-lg .navbar-nav .nav-link { padding: 0px; }
   .navbar {
     font-weight: 700;
     width: 100%;
     padding-top: 0;
     padding-bottom: 0;
-    margin-left: 13vw;
+    margin-left:0px;
+}
+.extra{
+  
+  display: none;
+ 
+}
+
+.extraPhone{
+  height:30px;
+  margin-left:0px;
+  display: block;
+  width: 30px;
+  
+}
+.imgL{
+
+  display:none;
 }
 .wrapper {
-  background: #ffb347;
+  /* background: #ffb347;
   background: -webkit-linear-gradient(top left, #ffb347 0%, #ffcc33 100%);
-  background: linear-gradient(to bottom right, #ffb347 0%, #ffcc33 100%);
+  background: linear-gradient(to bottom right, #ffb347 0%, #ffcc33 100%); */
   position: absolute;
   /* top: 50%; */
   left: 0;
   /* width: 100vw; */
-  height: 260vw;
-  margin-top: -320px;
+  height: 485vw;
+  margin-top: -650px;
   overflow: hidden;
 }
   
@@ -398,11 +421,16 @@ tbody tr:hover {
   .limiter{
     width: 70vw
   }
-  
+  .tm-page-wrap{
+    margin-top: 50px;
+
+  }
 
   .tm-hover-link{
-    color: white;
-    height: 5vw;
+    /* color: white; */
+    /* height: 5vw; */
+    height: 50vw;
+    margin-top: 250px;
   }
  
   
@@ -413,9 +441,9 @@ tbody tr:hover {
     padding-top: 5vw;
 } 
 .tm-bg-gray { 
-  /* background-color: #efefef;  */
-  background-image: linear-gradient(to right,#6DD5FA , rgb(218, 242, 248));
-  height: 100vmax;
+  background-color: white; 
+  /* background-image: linear-gradient(to right,#6DD5FA , rgb(218, 242, 248)); */
+  height: 70vmax;
 
 }
   .tm-banner-header { margin-top: 0px ; }
@@ -465,6 +493,29 @@ tbody tr:hover {
     width: 8vw;
     text-align: center;
   }
+
+
+  @-webkit-keyframes square {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-15000px) rotate(600deg);
+              transform: translateY(-15000px) rotate(600deg);
+    }
+  }
+  @keyframes square {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-3000px) rotate(600deg);
+              transform: translateY(-3000px) rotate(600deg);
+    }
+  }
+  
   
   /* .column4 {
     width: 10vw;
@@ -554,7 +605,7 @@ tbody tr:hover {
     width: 100%;
     padding-top: 0;
     padding-bottom: 0;
-    margin-left: 13vw;
+    /* margin-left: 13vw; */
 }
   .tm-bg-gray { 
     /* background-color: #efefef;  */
