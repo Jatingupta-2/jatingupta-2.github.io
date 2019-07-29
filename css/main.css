@@ -21,7 +21,8 @@
 
 body, html {
 	height: 100%;
-	font-family: sans-serif;
+  font-family: sans-serif;
+  
 }
 
 /* ------------------------------------ */
@@ -399,6 +400,13 @@ tbody tr:hover {
 
   display:none;
 }
+.moto{
+  margin-top: 69px;
+  font-size: 8px;
+  padding-top: 10px;
+  
+  /* vertical-align: center; */
+}
 .wrapper {
   /* background: #ffb347;
   background: -webkit-linear-gradient(top left, #ffb347 0%, #ffcc33 100%);
@@ -408,7 +416,7 @@ tbody tr:hover {
   left: 0;
   /* width: 100vw; */
   height: 485vw;
-  margin-top: -650px;
+  margin-top: -100px;
   overflow: hidden;
 }
   
