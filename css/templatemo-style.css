@@ -17,6 +17,32 @@ Highlight color (pink)		: #c66995
 
 /* Start new code */
 
+
+
+.collapsible {
+    /* background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px; */
+  }
+  
+  .active, .collapsible:hover {
+    /* background-color: #555; */
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+
 /* video start */
 
 
@@ -258,7 +284,7 @@ body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	font-weight: 300;
-    background: #e6e6e6;
+    /* background: #e6e6e6; */
 }
 
 a, button { transition: all 0.3s ease; }
@@ -276,10 +302,11 @@ p:last-child { margin-bottom: 0; }
     background: white;
 }
 
+
 .tm-container-outer {
     max-width: 1400px;
     margin: 0 auto;
-    margin-top: 24vw; 
+    margin-top: 16vw; 
     /* height: 65vw;      */
 }
 .tm-container-outer-our-Items {
@@ -287,6 +314,7 @@ p:last-child { margin-bottom: 0; }
     margin: 0 auto;
     /* margin-top: 17vw;  */
     /* height: 65vw;      */
+    
 }
 
 .tm-content-box { box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
@@ -600,7 +628,8 @@ label { font-weight: 700; }
 }
 
 .tm-position-relative { position: relative;
-padding-top: 2vw}
+padding-top: 2vw;
+margin-top:-12vw;}
 
 .slick-prev, .slick-next {
     width: 50px;
@@ -784,9 +813,17 @@ footer {
     background: rgb(214, 165, 41);
     padding-top: 10px;
     padding-bottom: 20px;
-    text-align: center;    
+    /* text-align: center;     */
     font-size: 0.8rem;
 }
+footer2 {
+    background: rgb(214, 165, 41);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* text-align: center;     */
+    font-size: 0.8rem;
+}
+
 
 footer a { color: #fff; }
 
@@ -839,6 +876,10 @@ footer p { color: white; }
 }
 
 #google-map { height: 600px; }
+
+.mb-0{
+    height: auto;
+}
 
 @media screen and (max-width: 1080px) {
     .tm-tab-link-li { width: 25%; }
