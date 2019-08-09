@@ -117,3 +117,25 @@ html,body{
     width:100%;
     transition:800ms ease all;
   } 
+
+  .morelistslap{
+      display: block;
+  }
+
+
+  .morelistsphone{
+    display: none;
+  }
+
+  @media screen and (max-width: 992px){
+
+    .morelistslap{
+        display: none;
+    }
+  
+  
+    .morelistsphone{
+      display: block;
+    }
+
+  }

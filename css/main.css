@@ -424,6 +424,7 @@ tbody tr:hover {
 
 
 @media screen and (max-width: 992px){
+
   .table100-head th{
     font-family: OpenSans-Regular;
     font-size: 3vw;
@@ -527,6 +528,9 @@ tbody tr:hover {
     width: 100vw;
     border-spacing: 50px 0;
   }
+
+  .morelistht{
+    text-align: center;margin-left: -2vw; height: 70vh;}
   
   
   .limiter{
@@ -737,6 +741,12 @@ tbody tr:hover {
     height: 180vh;
   
   }
+.morelistht{
+
+  text-align: center;margin-left: -2vw; height: 90vh;
+
+}
+ 
   /* .container-table100 {
     padding-left: 15px;
     padding-right: 15px;
