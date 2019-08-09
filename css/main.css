@@ -35,6 +35,12 @@ body, html {
 
 }
 
+.emailidlap{
+  display:block ;
+}
+.emailidphone{
+  display: none;
+}
 .col2icon{
   height: 5vw;width: 5vw;margin-left: 10vw
 
@@ -443,6 +449,12 @@ tbody tr:hover {
 .col1text{
   text-align: center; color: black;font-size: 10px;font-family: 'Farro', sans-serif;
 
+}
+.emailidlap{
+  display:none;
+}
+.emailidphone{
+  display: block;
 }
 
 .col2icon{
