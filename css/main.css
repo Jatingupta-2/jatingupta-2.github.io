@@ -25,6 +25,43 @@ body, html {
   
 }
 
+
+.col1icon{height: 4vw;width: 4vw;margin-left: 10.5vw
+
+}
+
+.col1text{
+  text-align: center; color: black;font-size: 16px;font-family: 'Farro', sans-serif;
+
+}
+
+.col2icon{
+  height: 5vw;width: 5vw;margin-left: 10vw
+
+}
+
+.col2text{
+  text-align: center; color: black;font-size: 14px;font-family: 'Farro', sans-serif;
+
+}
+
+.col3icon1{
+  height: 3vw;width: 3vw;margin-left: 10vw
+
+}
+.col3icon2{
+  height: 3vw;width: 3vw;margin-left: 12vw
+
+}
+
+.col3icon3{
+  height: 3vw;width: 3vw;margin-left: 14vw
+
+}
+
+
+
+
 /* ------------------------------------ */
 a {
 	margin: 0px;
@@ -372,7 +409,9 @@ tbody tr:hover {
 }
 
 
-
+.extraPhone{
+  display: none;
+}
 
 
 
@@ -396,6 +435,44 @@ tbody tr:hover {
     padding-bottom: 0;
     margin-left:0px;
 }
+
+.col1icon{height:10vw;width: 10vw;margin-left: 10.5vw
+
+}
+
+.col1text{
+  text-align: center; color: black;font-size: 10px;font-family: 'Farro', sans-serif;
+
+}
+
+.col2icon{
+  height:10vw;width: 10vw;margin-left: 8vw
+
+}
+
+.col2text{
+  text-align: center; color: black;font-size: 10px;font-family: 'Farro', sans-serif;
+
+}
+
+.col3icon1{
+  height:10vw;width: 10vw;margin-left: 10vw
+
+}
+.col3icon2{
+  height:10vw;width: 10vw;margin-left: 10vw
+
+}
+
+.col3icon3{
+  height:10vw;width: 10vw;margin-left: 10vw
+
+}
+
+.ep{
+  display: none;
+}
+
 .extra{
   
   display: none;
@@ -430,7 +507,7 @@ tbody tr:hover {
   left: 0;
   /* width: 100vw; */
   height: 485vw;
-  margin-top: -100px;
+  margin-top: -5vh;
   overflow: hidden;
 }
   
@@ -465,7 +542,7 @@ tbody tr:hover {
 .tm-bg-gray { 
   background-color: white; 
   /* background-image: linear-gradient(to right,#6DD5FA , rgb(218, 242, 248)); */
-  height: 70vmax;
+  height: 140vh;
 
 }
   .tm-banner-header { margin-top: 0px ; }
@@ -622,6 +699,19 @@ tbody tr:hover {
 } */
 
 @media (max-width: 370px) {
+  
+  .wrapper {
+    /* background: #ffb347;
+    background: -webkit-linear-gradient(top left, #ffb347 0%, #ffcc33 100%);
+    background: linear-gradient(to bottom right, #ffb347 0%, #ffcc33 100%); */
+    position: absolute;
+    /* top: 50%; */
+    left: 0;
+    /* width: 100vw; */
+    height: 485vw;
+    margin-top: 2vh;
+    overflow: hidden;
+  }
   .navbar {
     font-weight: 700;
     width: 100%;
@@ -631,8 +721,8 @@ tbody tr:hover {
 }
   .tm-bg-gray { 
     /* background-color: #efefef;  */
-    background-image: linear-gradient(to right,#6DD5FA , rgb(218, 242, 248));
-    height: 230vw
+    /* background-image: linear-gradient(to right,#6DD5FA , rgb(218, 242, 248)); */
+    height: 180vh;
   
   }
   /* .container-table100 {
