@@ -283,7 +283,8 @@ Highlight color (pink)		: #c66995
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 13px;
-	font-weight: 300;
+    font-weight: 300;
+    overflow-x: hidden;
     /* background: #e6e6e6; */
 }
 
