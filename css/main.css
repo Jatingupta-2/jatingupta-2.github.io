@@ -481,6 +481,11 @@ tbody tr:hover {
   height:10vw;width: 10vw;margin-left: 10vw
 
 }
+.phoneVid{
+  /* overflow-x: hidden; */
+  display: none;
+  /* max-width: 80vw; */
+}
 
 .ep{
   display: none;
