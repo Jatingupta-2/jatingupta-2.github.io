@@ -506,7 +506,7 @@ tbody tr:hover {
   margin-top: 5vh;
 }
 
-.tm-container-lists{
+.tm-container-lists{ 
   max-width: 1400px;
   /* margin: 0 auto; */
   margin-top: -16vh;
@@ -556,8 +556,8 @@ display:none;
   /* top: 50%; */
   left: 0;
   /* width: 100vw; */
-  height: 485vw;
-  margin-top: -5vh;
+  height: 170vh;
+  margin-top: -15vh;
   overflow: hidden;
 }
   
