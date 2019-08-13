@@ -304,6 +304,15 @@ tbody tr:hover {
   margin-top: -11vh;
 }
 
+.tm-container-outer-our-Items2 {
+  max-width: 1400px;
+  margin: 0 auto;
+  /* margin-top: 17vw;  */
+  /* height: 65vw;      */
+  
+}
+
+
 @media screen and (max-width: 1100px){
   .table100-head th{
     font-family: OpenSans-Regular;
@@ -511,6 +520,14 @@ tbody tr:hover {
   /* margin: 0 auto; */
   margin-top: -16vh;
 }
+.tm-container-outer-our-Items2 {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 5vw; 
+  /* height: 65vw;      */
+  
+}
+
 .lapvid{
 display:none;
 }
