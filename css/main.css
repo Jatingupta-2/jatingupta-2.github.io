@@ -523,7 +523,7 @@ tbody tr:hover {
 .tm-container-outer-our-Items2 {
   max-width: 1400px;
   margin: 0 auto;
-  margin-top: 6vh; 
+  margin-top: 2vh; 
   /* height: 65vw;      */
   
 } 
@@ -911,3 +911,14 @@ img {
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
+@media screen and (max-width: 550px){
+  .tm-container-outer-our-Items2 {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 9vh; 
+    /* height: 65vw;      */
+     
+  }
+}
+ 

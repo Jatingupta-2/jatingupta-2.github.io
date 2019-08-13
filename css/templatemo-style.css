@@ -1086,13 +1086,7 @@ footer p { color: white; }
 }
 
 @media screen and (max-width: 767px) {
-    .tm-container-outer-our-Items2 {
-        max-width: 1400px;
-        margin: 0 auto;
-        margin-top: 9vh; 
-        /* height: 65vw;      */
-         
-      } 
+    
     .tm-banner-row {
         padding-top: 80px;
         padding-bottom: 50px;
