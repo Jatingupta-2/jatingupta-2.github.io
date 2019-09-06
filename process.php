@@ -6,13 +6,13 @@ $visitor_phone = $_POST['phone'];
 
 
 
- $to = 'jating72@gmail.com';
+ $to = 'mail2amanjain@gmail.com';
  $subject =  'Visitor '. $visitor_name .' with email Id "'. $visitor_email. '"and Phone no.'.$visitor_phone.' wants to contact you !';
  $message = 'Message:' .$visitor_message;
- $headers = "Reply-To: The Sender <jating72@gmail.com\r\n"; 
-  $headers = "Return-Path: The Sender <jating72@gmail.com\r\n"; 
-  $headers = "From: The Sender <jating72@gmail.com\r\n"; 
- $headers = "From: jating72@gmail.com\n";
+ $headers = "Reply-To: The Sender <mail2amanjain@gmail.com\r\n"; 
+  $headers = "Return-Path: The Sender <mail2amanjain@gmail.com\r\n"; 
+  $headers = "From: The Sender <mail2amanjain@gmail.com\r\n"; 
+ $headers = "From: mail2amanjain@gmail.com\n";
  $headers = "MIME-Version: 1.0\n";
  $headers = "Content-type: text/html; charset=iso-8859-1\n";
   $headers = "Organization: Sender Organization\r\n";

@@ -83,7 +83,7 @@ html,body{
   }
   button{
     background:#1AAB8A;
-    color:rgb(214, 165, 41);
+    color:rgb(167, 5, 5);
     border:none;
     position:relative;
     height:60px;
@@ -95,7 +95,7 @@ html,body{
   }
   button:hover{
     background:#fff;
-    color:rgb(214, 165, 41);
+    color:black
   }
   button:before,button:after{
     content:'';

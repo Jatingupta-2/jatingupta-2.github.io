@@ -57,9 +57,12 @@ Highlight color (pink)		: #c66995
 #video-container {
     position: absolute;
 }
+.displayTopActive{
+    display: none;
+}
 .dropbtn {
     /* background-color: #4CAF50; */
-    color:rgb(214, 165, 41);
+    color:rgb(167, 5, 5);
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -172,8 +175,8 @@ Highlight color (pink)		: #c66995
     top: 50%;
     left: 0;
     width: 100%;
-    height: 52vw;
-    margin-top: 20.8vw;
+    height: 110vh;
+    margin-top: 50vh;
     overflow: hidden;
   }
 
@@ -347,7 +350,7 @@ p:last-child { margin-bottom: 0; }
 .tm-container-outer {
     max-width: 1400px;
     margin: 0 auto;
-    margin-top: 16vw; 
+    margin-top: 30vh; 
     /* height: 65vw;      */
 }
 .tm-container-outer-our-Items {
@@ -368,12 +371,12 @@ p:last-child { margin-bottom: 0; }
 }
 
 .tm-bg-primary { 
-    background-image:  linear-gradient(to bottom right, #FFE47A 0%, rgb(247, 231, 207) 100%);
+    background-image:  linear-gradient(to right, cornsilk 0%, #ffff 100%);
     /* background-color: rgb(214, 165, 41); */
  }
 .tm-bg-highlight { 
     /* background-image: linear-gradient(to bottom right, #ffb347 0%, #ffcc33 100%); */
-    background-image:  linear-gradient(to bottom left, #FFE47A 0%, rgb(247, 231, 207) 100%);
+    background-image:  linear-gradient(to left, cornsilk 0%, #ffff 100%);
     /* background-color: rgb(214, 165, 41); */
 }
 
@@ -466,6 +469,76 @@ font-size: 120% }
     border-radius: 0;
     cursor: pointer;
 }
+.logo_skcm{
+    height: 20vh;
+    width: 5vw;
+    margin-left: 46.8vw;
+    margin-top: 2vh;
+}
+
+
+.logo_BCI{
+    height: 7vw;
+    width: 16vw;
+    margin-left: 5vw;
+   
+    margin-top: 6vh;
+
+}
+.logo_ISO{
+    height: 8vw;
+    width: 13vw;
+    margin-left: 32vw;
+    margin-top: 6vh;
+
+}
+
+.jainism{
+    height: 20vh;
+    width: 5vw;
+    margin-left: 2vw;
+    margin-top: 1vh;
+}
+.Main_tab{
+    /* background-color: #cf4d35; */
+    /* background-image: url(../img/download.jpg); */
+    background-size: 100vw 100vh;
+    /* background-image:  */
+    /* background: cornsilk; */
+    background-image: linear-gradient(to bottom,cornsilk , #ffff);
+    /* linear-gradient(to bottom   ,cornsilk,); */
+    min-height: 100%;
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.shriClassTop{
+    padding-top: 10vh;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold; 
+    z-index: 999;
+    color: rgb(167, 5, 5);
+    font-family:'Noto Serif', serif;
+}
+
+.shriClass{
+    /* padding-top: 2vh; */
+    text-align: center;
+    font-size: 10vh;
+    font-weight: bold; 
+    z-index: 999;
+    color: rgb(167, 5, 5);
+    font-family:'Noto Serif', serif;
+}
+.HeaderSub{
+    font-size: 3vh;
+    font-family: 'Noto Serif', serif;
+    color: rgb(58, 54, 54)
+    
+    
+
+}
 
 .tm-banner-title {
     font-size: 2rem;
@@ -480,7 +553,8 @@ font-size: 120% }
     /* font-weight: bold; */
 }
 
-.tm-banner-header { color: white; }
+.tm-banner-header { color: white;
+    margin-top: -15%; }
 .tm-banner-overlay {
     z-index: 1;
     /* height: 100%;
@@ -498,10 +572,10 @@ font-size: 120% }
     /* background-image: linear-gradient(to right,rgb(214, 165, 41) , tomato); */
     background: url(../img/istockphoto-131399882-612x612.jpg) center top no-repeat; 
     background: transparent;
-    min-height: 600px;
+    /* min-height: 600px; */
     position: relative;
     /* opacity: 0.5; */
-    margin-bottom: 4vw;
+    margin-bottom: 10vh ;
     /* margin-right: 4vw;
     margin-left: 4vw; */
     border-radius:5%
@@ -516,7 +590,7 @@ font-size: 120% }
 .tm-banner-row-header { text-align: center; }
 .tm-down-arrow-link { 
     color: white;
-    background-color: rgb(214, 165, 41);
+    background-color: rgb(167, 5, 5);
     border-radius: 50%;
     padding: 10px 15px;
     margin-top: 0px;
@@ -590,7 +664,7 @@ label { font-weight: 700; }
 
 .tm-btn-white { 
     
-    background: rgb(214, 165, 41);
+    background:rgb(167, 5, 5);
     color: black;
     font-weight: bold;
     
@@ -672,8 +746,8 @@ label { font-weight: 700; }
 }
 
 .tm-position-relative { position: relative;
-padding-top: 2vw;
-margin-top:-12vw;}
+padding-top: 5vh;
+margin-top:-20vh;}
 
 .slick-prev, .slick-next {
     width: 50px;
@@ -697,7 +771,7 @@ margin-top:-12vw;}
 
 .tm-slideshow-highlight .slick-prev:hover, 
 .tm-slideshow-highlight .slick-next:hover {
-    background: rgb(214, 165, 41);
+    background: rgb(167, 5, 5);;
 }
 
 .slick-prev {
@@ -854,14 +928,15 @@ margin-top:-12vw;}
     border-spacing: 50px 0px;}
 
 footer {
-    background: rgb(214, 165, 41);
+    /* background-image:  linear-gradient(to top, cornsilk 0%, #ffff 100%); */
+    background: cornsilk;
     padding-top: 10px;
     padding-bottom: 20px;
     /* text-align: center;     */
     font-size: 0.8rem;
 }
 footer2 {
-    background: rgb(214, 165, 41);
+    background-image:  linear-gradient(to top, cornsilk 0%, #ffff 100%);
     padding-top: 10px;
     padding-bottom: 20px;
     /* text-align: center;     */
@@ -873,7 +948,7 @@ footer a { color: #fff; }
 
 footer a:hover { color: #900; }
 
-footer p { color: white; }
+footer p { color: rgb(112, 5, 5); }
 
 .tm-footer-text-highlight {
     color: white;
@@ -883,13 +958,14 @@ footer p { color: white; }
 .tm-footer-text-highlight:hover { color: #c66995; }
 
 .tm-contact-form {
-    background: white;
+    background:cornsilk;
     width: 470px;
     position: absolute;
     top: 100px;
     right: 100px;
-    padding: 20px;
+    padding: 7px;
     z-index: 1000;
+    border-color: black;
 }
 
 .form-control {
@@ -926,6 +1002,7 @@ footer p { color: white; }
 }
 
 @media screen and (max-width: 1080px) {
+    
     .tm-tab-link-li { width: 25%; }
 }
 
@@ -934,6 +1011,53 @@ footer p { color: white; }
 }
 
 @media screen and (max-width: 991px) {
+
+    .logo_skcm{
+        height: 20vh;
+        width: 20vw;
+        margin-left: 39vw;
+        margin-top: 2vh
+    }
+    .shriClass{
+        text-align: center;
+    font-size: 5vh;
+    font-weight: bold;
+    z-index: 999;
+    color: rgb(167, 5, 5);
+    font-family: 'Noto Serif', serif;
+    }
+    .shriClassTop {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        text-align: center;
+        font-size: 2.5vh;
+        font-weight: bold;
+        z-index: 999;
+        color: rgb(167, 5, 5);
+        font-family: 'Noto Serif', serif;
+    }
+
+
+    .HeaderSub{
+        font-size: 2.5vh;
+    font-family: 'Noto Serif', serif;
+    color: rgb(58, 54, 54);
+    }
+
+    .logo_ISO {
+        height: 30vw;
+        width: 40vw;
+        margin-left: 10vw;
+        margin-top: 8vh;
+    }
+    .logo_BCI {
+        height: 30vw;
+        width: 40vw;
+        margin-left: 1vw;
+        margin-top: 8vh;
+    }    
+
+
     .tm-top-bar .navbar-expand-lg .navbar-nav .nav-link {
         padding: 15px 20px;
         background: white;
@@ -974,7 +1098,7 @@ footer p { color: white; }
         /* position: absolute; */
         margin-top: 8vh;
         left: 0;
-        /* height: 30; */
+        /* height: 30vh; */
         width: 100%;
         /* display: none; */
         z-index: -1;

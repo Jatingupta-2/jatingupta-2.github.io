@@ -1,0 +1,32 @@
+<form data-form-output="form-output-global" data-form-type="contact" id="contactForm" method="post" class="rd-mailform text-left">
+    <div class="range">
+      <div class="cell-sm-4">
+        <div class="form-group">
+          <!-- <label for="contact-name" class="form-label">Name*:</label> -->
+          <input id="name" type="text" name="name" data-constraints="@Required"  placeholder="Name"  class="form-control">
+        </div>
+      </div>
+      <div class="cell-sm-4 offset-top-20 offset-sm-top-0">
+        <div class="form-group">
+          <!-- <label for="contact-email" class="form-label">E-Mail*:</label> -->
+          <input id="email" type="email" name="email" data-constraints="@Required @Email" placeholder="Email"  class="form-control">
+        </div>
+      </div>
+      <div class="cell-sm-4 offset-top-20 offset-sm-top-0">
+        <div class="form-group">
+          <!-- <label for="contact-phone" class="form-label">Phone:</label> -->
+          <input id="phone" type="text" name="phone" data-constraints="@Numeric" placeholder="Phone" class="form-control">
+        </div>
+      </div>
+    </div>
+    <div class="form-group offset-top-20">
+      <!-- <label for="contact-message" class="form-label">Message*:</label> -->
+      <textarea id="message" name="message" data-constraints="@Required" class="form-control" placeholder="Message"></textarea>
+    </div>
+    <div class="text-center offset-top-35">
+      <div class="group">
+        <button type="submit" class="btn btn-link text-primary">Send</button>
+        <button type="reset" class="btn btn-link">Reset</button>
+      </div>
+    </div>
+  </form>
