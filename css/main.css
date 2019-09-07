@@ -791,18 +791,16 @@ display:none;
 
 @media (max-width: 370px) {
   
-  .wrapper {
-    /* background: #ffb347;
-    background: -webkit-linear-gradient(top left, #ffb347 0%, #ffcc33 100%);
-    background: linear-gradient(to bottom right, #ffb347 0%, #ffcc33 100%); */
+  /* .wrapper {
+   
     position: absolute;
-    /* top: 50%; */
+    
     left: 0;
-    /* width: 100vw; */
+    
     height: 485vw;
     margin-top: 2vh;
     overflow: hidden;
-  }
+  } */
   .navbar {
     font-weight: 700;
     width: 100%;
