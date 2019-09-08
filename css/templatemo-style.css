@@ -492,6 +492,19 @@ font-size: 120% }
     margin-top: 6vh;
 
 }
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:57vw;
+    }
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:57vw;
+    }
 
 .jainism{
     height: 20vh;
@@ -1153,6 +1166,13 @@ footer p { color: rgb(112, 5, 5); }
 }
 
 @media screen and (max-width: 986px) {
+    .gmap_canvas {
+        overflow: hidden;
+        background: none!important;
+        height: 500px;
+        width: 100vw;
+        margin-top:20vh;
+    }
     .tm-slideshow-section { flex-direction: column; }
     
     .tm-slideshow,
