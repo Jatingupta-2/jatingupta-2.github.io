@@ -191,7 +191,7 @@ html,body{
     }
 
   }
-  @media screen and (max-width: 576px){
+  @media screen and (max-width: 350px){
 
   .tm-Margin-top{
     margin-top: 170vh;
