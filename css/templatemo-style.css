@@ -58,7 +58,7 @@ Highlight color (pink)		: #c66995
     position: absolute;
 }
 .displayTopActive{
-    display: none;
+    display: none !important;
 }
 .dropbtn {
     /* background-color: #4CAF50; */
@@ -1029,7 +1029,7 @@ footer p { color: rgb(112, 5, 5); }
         height: 20vh;
         width: 20vw;
         margin-left: 39vw;
-        margin-top: 2vh
+        margin-top: 7vh
     }
     .shriClass{
         text-align: center;
