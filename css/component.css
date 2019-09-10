@@ -137,7 +137,8 @@
 .btn-1 {
 	border: 3px solid #fff;
 	color: black;
-	background: #fcad26
+	background: #fcad26;
+	border-radius:12px;
 	
 }
 
@@ -180,8 +181,9 @@
 
 .btn-1c:hover,
 .btn-1c:active {
-	color: #0e83cd;
-	background: black
+	color: #fff;
+	font-size: 1.5em;
+	background: rgb(235, 67, 67);
 }
 
 .btn-1c:hover:after,

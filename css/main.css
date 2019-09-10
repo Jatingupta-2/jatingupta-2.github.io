@@ -680,7 +680,8 @@ display:none;
 .tm-bg-gray { 
   background-color: white; 
   /* background-image: linear-gradient(to right,#6DD5FA , rgb(218, 242, 248)); */
-  height: 160vh; 
+  /* height: 160vh;  */
+  height:260vh;
 
 } 
   .tm-banner-header { margin-top: 0px ; }

@@ -57,6 +57,9 @@ Highlight color (pink)		: #c66995
 #video-container {
     position: absolute;
 }
+/* .bgImage{
+    background-image: url(../img/asia.png);
+} */
 .displayTopActive{
     display: none !important;
 }
@@ -114,6 +117,83 @@ Highlight color (pink)		: #c66995
 .video .fillWidth {
     width: 100%;
 } */
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+ .colPic1{
+    height: 30vh;
+    min-height:50px;
+    background-image: url('../img/background-2549401_1920.jpg');
+    vertical-align: center;
+    text-align: center;
+    padding-top: 9vh;
+    background-size: 100% 100%;
+ }
+ .colPic2{
+    height: 30vh;
+    min-height:50px;
+    background-image: url('../img/background-2530318_1920.jpg');
+    vertical-align: center;
+    text-align: center;
+    padding-top: 9vh;
+    background-size: 100% 100%;
+ }
+ .colPic3{
+    height: 30vh;
+    min-height:50px;
+    background-image: url('../img/background-texture-2110720_1920.jpg');
+    vertical-align: center;
+    text-align: center;
+    padding-top: 9vh;
+    background-size: 100% 100%;
+ }
+ .colPic4{
+    height: 30vh;
+    min-height:50px;
+    background-image: url('../img/fabric-2696966_1920.jpg');
+    vertical-align: center;
+    text-align: center;
+    padding-top: 9vh;
+    background-size: 100% 100%;
+ }
+ .colPic5{
+    height: 30vh;
+    min-height:50px;
+    background-image: url('../img/canvas-2092590_1920.jpg');
+    vertical-align: center;
+    text-align: center;
+    padding-top: 9vh;
+    background-size: 100% 100%;
+ }
+ .colPic6{
+    height: 30vh;
+    min-height:50px;
+    background-image: url('../img/cloth-68946_1920.jpg');
+    vertical-align: center;
+    text-align: center;
+    padding-top: 9vh;
+    background-size: 100% 100%;
+ }
+ .colPic7{
+    height: 30vh;
+    min-height:50px;
+    background-image: url('../img/background-2549399_1920.jpg');
+    vertical-align: center;
+    text-align: center;
+    padding-top: 9vh;
+    background-size: 100% 100%;
+ }
+ .colPic8{
+    height: 30vh;
+    min-height:50px;
+    background-image: url('../img/texture-1838195_1920.jpg');
+    vertical-align: center;
+    text-align: center;
+    padding-top: 9vh;
+    background-size: 100% 100%;
+ }
 
 .overlay2 {
     /* position: absolute; */
@@ -514,7 +594,7 @@ font-size: 120% }
 }
 .Main_tab{
     /* background-color: #cf4d35; */
-    /* background-image: url(../img/download.jpg); */
+    /* background-image: url(../img/honeycomb-34984.png); */
     background-size: 100vw 100vh;
     /* background-image:  */
     /* background: cornsilk; */
